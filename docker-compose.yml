@@ -18,7 +18,7 @@ services:
     env_file: .env
     environment: 
       GITLAB_OMNIBUS_CONFIG: |
-        external_url 'http://ctsc01232364201.cts.com/gitlab'
+        external_url 'http://devops.com/gitlab'
     ports:
       - "1443:443"
       - "122:22"
